@@ -42,7 +42,7 @@ class Extract {
                     $email = trim($email);
                     if(self::go($email)) {
                         array_push($good, $email);
-                        print $email . ' valid' . "\r\n";
+                        echo $email . ' valid' . "\r\n";
                     }
                     //sleep(2);
                 }
